@@ -1,100 +1,22 @@
 # ninja log v7
-24	279	8129836395314480	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-24	279	8129836395314480	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-24	279	8129836395314480	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-24	279	8129836395314480	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+32	190	8130841992800540	flashcards_autogen/timestamp	ab64ebeabacfbfa7
+32	190	8130841992800540	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+32	190	8130841992800540	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
+32	190	8130841992800540	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
 282	381	8129836395888493	CMakeFiles/flashcards.dir/flashcards_autogen/mocs_compilation.cpp.obj	d157b823503c0599
-287	702	8129836395888493	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-703	900	8129836400140898	flashcards.exe	1c3a11409110701a
-19	200	8129841504509942	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-19	200	8129841504509942	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-19	200	8129841504509942	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-19	200	8129841504509942	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-201	1964	8129841506224669	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-1967	2124	8129841523994855	flashcards.exe	1c3a11409110701a
-31	180	8129850002453236	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-31	180	8129850002453236	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-31	180	8129850002453236	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-31	180	8129850002453236	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-181	1923	8129850003951078	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-1924	2085	8129850021382706	flashcards.exe	1c3a11409110701a
-14	177	8129853509034147	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-14	177	8129853509034147	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-14	177	8129853509034147	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-14	177	8129853509034147	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-178	2038	8129853510665336	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-2039	2234	8129853529275112	flashcards.exe	1c3a11409110701a
-26	177	8129858363098890	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-26	177	8129858363098890	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-26	177	8129858363098890	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-26	177	8129858363098890	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-53	245	8129933890594126	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-53	245	8129933890594126	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-53	245	8129933890594126	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-53	245	8129933890594126	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-32	181	8129937528286418	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-32	181	8129937528286418	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-32	181	8129937528286418	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-32	181	8129937528286418	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-133	396	8130791195609094	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-133	396	8130791195609094	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-133	396	8130791195609094	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-133	396	8130791195609094	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-48	241	8130791587031993	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-48	241	8130791587031993	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-48	241	8130791587031993	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-48	241	8130791587031993	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-243	3148	8130791589016233	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-3148	3985	8130791618057347	flashcards.exe	1c3a11409110701a
-13	183	8130794593608766	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-13	183	8130794593608766	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-13	183	8130794593608766	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-13	183	8130794593608766	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-18	191	8130795195885211	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-18	191	8130795195885211	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-18	191	8130795195885211	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-18	191	8130795195885211	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-37	192	8130797790334923	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-37	192	8130797790334923	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-37	192	8130797790334923	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-37	192	8130797790334923	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-192	2516	8130797791892778	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-2516	2736	8130797815132878	flashcards.exe	1c3a11409110701a
-67	228	8130799739002137	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-67	228	8130799739002137	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-67	228	8130799739002137	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-67	228	8130799739002137	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-228	2509	8130799740603904	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-2509	2717	8130799763418968	flashcards.exe	1c3a11409110701a
-35	188	8130806238595640	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-35	188	8130806238595640	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-35	188	8130806238595640	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-35	188	8130806238595640	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-189	2489	8130806240134810	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-2489	2683	8130806263156783	flashcards.exe	1c3a11409110701a
-31	199	8130808903741369	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-31	199	8130808903741369	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-31	199	8130808903741369	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-31	199	8130808903741369	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-41	187	8130809127098033	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-41	187	8130809127098033	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-41	187	8130809127098033	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-41	187	8130809127098033	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-34	164	8130811945395761	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-34	164	8130811945395761	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-34	164	8130811945395761	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-34	164	8130811945395761	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-32	184	8130827695948974	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-32	184	8130827695948974	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-32	184	8130827695948974	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-32	184	8130827695948974	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-26	231	8130827966635365	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-26	231	8130827966635365	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-26	231	8130827966635365	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-26	231	8130827966635365	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-37	188	8130829327569135	flashcards_autogen/timestamp	ab64ebeabacfbfa7
-37	188	8130829327569135	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-37	188	8130829327569135	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
-37	188	8130829327569135	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
-190	2418	8130829329095170	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
-2418	2709	8130829351386435	flashcards.exe	1c3a11409110701a
+191	2296	8130841994298184	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
+2296	2467	8130842015403107	flashcards.exe	1c3a11409110701a
+37	195	8130847967295887	flashcards_autogen/timestamp	ab64ebeabacfbfa7
+37	195	8130847967295887	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+37	195	8130847967295887	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
+37	195	8130847967295887	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+11	161	8130851044867346	flashcards_autogen/timestamp	ab64ebeabacfbfa7
+11	161	8130851044867346	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+11	161	8130851044867346	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
+11	161	8130851044867346	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+36	196	8130851605090676	flashcards_autogen/timestamp	ab64ebeabacfbfa7
+36	196	8130851605090676	flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+36	196	8130851605090676	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/timestamp	ab64ebeabacfbfa7
+36	196	8130851605090676	C:/Users/rafae/Desktop/Project - Flashcards/build/flashcards_autogen/mocs_compilation.cpp	ab64ebeabacfbfa7
+197	2437	8130851606694229	CMakeFiles/flashcards.dir/main.cpp.obj	f3e04e8ebc0bfb05
+2438	2636	8130851629103147	flashcards.exe	1c3a11409110701a
