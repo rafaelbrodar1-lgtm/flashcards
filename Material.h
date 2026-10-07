@@ -44,11 +44,12 @@ class Category {
             Card k(p, o);
             cards.push_back(k);
         }
-        void displayCards() const {
-            cout << "Cards for subject: " << name << endl;
+        string displayCards() const {
+            string result = "Cards for subject: " + name + "\n";
             for (const auto& c : cards) {
-                cout << "Question: " << c.getQuestion() << ", Answer: " << c.getAnswer() << endl;
+                result += "Question: " + c.getQuestion() + ", Answer: " + c.getAnswer() + "\n";
             }
+            return result;
         }
 
         bool checkAnswer(int index, string answer) const {

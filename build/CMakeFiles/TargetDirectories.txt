@@ -1,0 +1,5 @@
+C:/Users/rafae/Desktop/Project - Flashcards/build/CMakeFiles/flashcards.dir
+C:/Users/rafae/Desktop/Project - Flashcards/build/CMakeFiles/edit_cache.dir
+C:/Users/rafae/Desktop/Project - Flashcards/build/CMakeFiles/rebuild_cache.dir
+C:/Users/rafae/Desktop/Project - Flashcards/build/CMakeFiles/flashcards_autogen_timestamp_deps.dir
+C:/Users/rafae/Desktop/Project - Flashcards/build/CMakeFiles/flashcards_autogen.dir
