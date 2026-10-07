@@ -40,6 +40,15 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
             categoryList->addItem(categoryName);
         }
     });
+
+    connect (categoryList, &QListWidget::itemDoubleClicked, this, [this]() {
+        int i = categoryList->currentRow();
+        if (i >= 0 && i < categories.size()) {
+            Category &selectedCategory = categories[i];
+            QString cardsInfo = QString::fromStdString(selectedCategory.displayCards());
+            QMessageBox::information(this, "Cards in " + categoryList->currentItem()->text(), cardsInfo);
+        }
+    });
     
 }
 
