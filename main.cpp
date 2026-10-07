@@ -155,7 +155,8 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
 
 void MainWindow::showCurrentCard() {
     const auto& cards = categories[currentCategory].getCards();
-    testQuestion->setText(QString::fromStdString(cards[testIndex].getQuestion()));
+    QString counter = "Card " + QString::number(testIndex + 1) + "/" + QString::number(cards.size());
+    testQuestion->setText(counter + "\n" + QString::fromStdString(cards[testIndex].getQuestion()));
     testAnswer->setText("");
 }
     
