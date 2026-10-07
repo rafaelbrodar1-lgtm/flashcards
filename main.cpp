@@ -21,6 +21,11 @@ class MainWindow : public QWidget {
         QListWidget *cardsList;
         QLabel *categoryTitle;
         int currentCategory = -1;
+        QLabel *testQuestion;
+        QLabel *testAnswer;
+        QPushButton *showAnswerButton;
+        QPushButton *nextButton;
+        int testIndex = 0;
      
 
     public : 
@@ -51,11 +56,23 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     categoryLayout->addWidget(addFlashcardButton);
     categoryLayout->addWidget(backButton);
 
+    QPushButton *testButton = new QPushButton("Test");
+    QVBoxLayout *testLayout = new QVBoxLayout;
+    testQuestion = new QLabel("Question: ");
+    testAnswer = new QLabel("Answer: ");
+    showAnswerButton = new QPushButton("Show Answer");
+    nextButton = new QPushButton("Next");
+
+    testLayout->addWidget(testQuestion);
+    testLayout->addWidget(testAnswer);
+    testLayout->addWidget(showAnswerButton);
+    testLayout->addWidget(nextButton);
 
 
     stackedWidget = new QStackedWidget(this);
     stackedWidget->addWidget(categoriesPage);
     stackedWidget->addWidget(categoryPage);
+    stackedWidget->addWidget(testLayout);
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(stackedWidget);
 
@@ -98,6 +115,37 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     connect(backButton, &QPushButton::clicked, this, [this]() {
         stackedWidget->setCurrentIndex(0);
     });
+
+    connect(testButton, &QPushButton::clicked, this, [this]() {
+        if (currentCategory < 0) return;
+        testIndex = 0;
+        if (categories[currentCategory].getCards().empty()) {
+            QMessageBox::information(this, "Test", "No flashcards in this category.");
+            return;
+        }
+        testQuestion->setText("Question: " + QString::fromStdString(categories[currentCategory].getCards()[testIndex].getQuestion()));
+        testAnswer->setText("Answer: ");
+        stackedWidget->setCurrentIndex(2);
+    });
+
+    connect(showAnswerButton, &QPushButton::clicked, this, [this]() {
+        if (currentCategory < 0 || testIndex >= categories[currentCategory].getCards().size()) return;
+        testAnswer->setText("Answer: " + QString::fromStdString(categories[currentCategory].getCards()[testIndex].getAnswer()));
+    });
+
+    connect(nextButton, &QPushButton::clicked, this, [this]() {
+        if (currentCategory < 0) return;
+        testIndex++;
+        if (testIndex >= categories[currentCategory].getCards().size()) {
+            QMessageBox::information(this, "Test", "End of flashcards.");
+            stackedWidget->setCurrentIndex(0);
+            return;
+        }
+        testQuestion->setText("Question: " + QString::fromStdString(categories[currentCategory].getCards()[testIndex].getQuestion()));
+        testAnswer->setText("Answer: ");
+    });
+
+    
 
 
     
