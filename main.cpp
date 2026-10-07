@@ -17,6 +17,11 @@ class MainWindow : public QWidget {
     private:
         vector<Category> categories;
         QListWidget *categoryList;
+        QStackedWidget *stackedWidget;
+        QListWidget *cardsList;
+        QLabel *categoryTitle;
+        int currentCategory = -1;
+     
 
     public : 
         MainWindow(QWidget *parent = nullptr); 
@@ -25,11 +30,35 @@ class MainWindow : public QWidget {
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     setWindowTitle("Flashcards");
-    categoryList = new QListWidget(this);
-    QVBoxLayout *layout = new QVBoxLayout(this);
-    layout->addWidget(categoryList);
-    QPushButton *addCategoryButton = new QPushButton("Add Category", this);
-    layout->addWidget(addCategoryButton);
+
+
+
+    QWidget *categoriesPage = new QWidget(this);
+    QVBoxLayout *categoriesLayout = new QVBoxLayout(categoriesPage);
+    categoryList = new QListWidget;
+    QPushButton *addCategoryButton = new QPushButton("Add Category");
+    categoriesLayout->addWidget(categoryList);
+    categoriesLayout->addWidget(addCategoryButton);
+
+    QWidget *categoryPage = new QWidget;
+    QVBoxLayout *categoryLayout = new QVBoxLayout(categoryPage);
+    categoryTitle = new QLabel("Category: ");
+    cardsList = new QListWidget;
+    QPushButton *addFlashcardButton = new QPushButton("Add Flashcard");
+    QPushButton *backButton = new QPushButton("Back");
+    categoryLayout->addWidget(categoryTitle);
+    categoryLayout->addWidget(cardsList);
+    categoryLayout->addWidget(addFlashcardButton);
+    categoryLayout->addWidget(backButton);
+
+
+
+    stackedWidget = new QStackedWidget(this);
+    stackedWidget->addWidget(categoriesPage);
+    stackedWidget->addWidget(categoryPage);
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    mainLayout->addWidget(stackedWidget);
+
 
     connect(addCategoryButton, &QPushButton::clicked, this, [this]() {
         bool ok;
@@ -41,14 +70,38 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
         }
     });
 
-    connect (categoryList, &QListWidget::itemDoubleClicked, this, [this]() {
+    connect(categoryList, &QListWidget::itemDoubleClicked, this, [this]() {
         int i = categoryList->currentRow();
-        if (i >= 0 && i < categories.size()) {
-            Category &selectedCategory = categories[i];
-            QString cardsInfo = QString::fromStdString(selectedCategory.displayCards());
-            QMessageBox::information(this, "Cards in " + categoryList->currentItem()->text(), cardsInfo);
+        if (i<0) return;
+        currentCategory = i;
+        categoryTitle->setText("Category: " + QString::fromStdString(categories[i].getName()));
+        cardsList->clear();
+        for (const auto& card : categories[i].getCards()) {
+            cardsList->addItem(QString::fromStdString("Q: " + card.getQuestion() + " | A: " + card.getAnswer()));
         }
+        stackedWidget->setCurrentIndex(1);
     });
+
+    connect(addFlashcardButton, &QPushButton::clicked, this, [this]() {
+        if (currentCategory < 0) return;
+        bool ok;
+        QString q = QInputDialog::getText(this, "Add Flashcard", "Question:", QLineEdit::Normal, "", &ok);
+        if (!ok || q.isEmpty()) return;
+        QString a = QInputDialog::getText(this, "Add Flashcard", "Answer:", QLineEdit::Normal, "", &ok);
+        if (!ok || a.isEmpty()) return;
+
+        categories[currentCategory].addCard(q.toStdString(), a.toStdString());
+        cardsList->addItem(q);
+
+    });
+
+    connect(backButton, &QPushButton::clicked, this, [this]() {
+        stackedWidget->setCurrentIndex(0);
+    });
+
+
+    
+
     
 }
 
